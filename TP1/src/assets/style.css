@@ -1,0 +1,81 @@
+body {
+    font-family: 'Helvetica', 'sans-serif';
+    font-size: 16px;
+    background-color: #e0d7c7;
+}
+
+header, main {
+    margin: 50px 100px;
+}
+
+svg {
+    background-color: #ffffff;
+}
+
+button {
+    padding: 10px 30px;
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #333;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: 0;
+    font-family: 'Helvetica', 'sans-serif';
+    font-size: 16px;
+}
+
+button:hover, button:active {
+	background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+	background-color:#f6f6f6;
+}
+
+#viz-group {
+    background: #C1B4AE;
+    border-radius: 10px;
+}
+
+#example-graph {
+    margin: auto;
+    position: relative;
+    padding: 50px;
+}
+
+.info-panel {
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+    background: #353238;
+    border-radius: 0px 0px 10px 10px;
+    border: 0px;
+    border-top: 4px solid;
+    border-image: linear-gradient(to right, #D90368, #fc2c8e);
+    border-image-slice: 1;
+    color: white;
+}
+
+#info-text {
+    align-self: center;
+    color: #ffffff;
+}
+
+.title, .axis-text {
+    transform-origin: center;
+    transform-box: fill-box;
+    text-anchor: middle;
+}
+
+.axis-text {
+    font-size: 14px;
+}
+
+.title {
+    font-size: 17px;
+}
+
+.dot-count {
+    font-weight: bold;
+}
+
+.tick text {
+    font-size: 12px;
+}

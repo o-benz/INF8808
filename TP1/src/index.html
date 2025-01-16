@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="Description" content="Code pour le TP1 de INF8808.">
+        <title>TP1 | INF8808</title>
+
+        <link rel="stylesheet" href="assets/style.css">
+      </head>
+
+      <body>
+        <header>
+        </header>
+        <main>
+          
+          <div id="viz-group">
+            <div id="example-graph">
+              <svg></svg>
+            </div>
+            <div class="info-panel">
+              <div id="info-text">
+                Il y a : <span class="dot-count"></span> <span class="dot-label">points</span>
+              </div>
+              <button id="update-btn">Actualiser</button>
+            </div>
+        
+          </div>
+
+        </main>
+        <script src="https://d3js.org/d3.v5.js"></script>
+        <script type="module" src="index.js"></script>
+      </body>
+</html>
