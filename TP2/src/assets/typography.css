@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Grenze Gotisch';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/grenze_gotish/grenze-gotisch-v1-latin-regular.eot');
+    src: local(''),
+         url('./fonts/grenze_gotish/grenze-gotisch-v1-latin-regular.woff2') format('woff2'), 
+         url('./fonts/grenze_gotish/grenze-gotisch-v1-latin-regular.woff') format('woff'), 
+         url('./fonts/grenze_gotish/grenze-gotisch-v1-latin-regular.svg#GrenzeGotisch') format('svg'); 
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/montserrat/montserrat-v14-latin-regular.eot');
+    src: local('Montserrat Regular'), local('Montserrat-Regular'),
+         url('./fonts/montserrat/montserrat-v14-latin-regular.woff2') format('woff2'), 
+         url('./fonts/montserrat/montserrat-v14-latin-regular.woff') format('woff'), 
+         url('./fonts/montserrat/montserrat-v14-latin-regular.svg#Montserrat') format('svg'); 
+  }
