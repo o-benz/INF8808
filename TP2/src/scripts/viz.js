@@ -7,7 +7,7 @@
  * @param {number} width The width of the graph
  */
 export function updateGroupXScale (scale, data, width) {
-  // TODO : Set the domain and range of the groups' x scale
+  scale.domain(data.map((d) => d.Act)).range([0, width])
 }
 
 /**
@@ -18,7 +18,8 @@ export function updateGroupXScale (scale, data, width) {
  * @param {number} height The height of the graph
  */
 export function updateYScale (scale, data, height) {
-  // TODO : Set the domain and range of the graph's y scale
+  const max = d3.max(data, d => d3.max(d.Players, p => p.Count))
+  scale.domain([0, max]).range([height, 0])
 }
 
 /**
@@ -29,8 +30,15 @@ export function updateYScale (scale, data, height) {
  * @param {*} x The graph's x scale
  */
 export function createGroups (data, x) {
-  // TODO : Create the groups
+  d3.selectAll('.group').remove() // Remove previous groups for resizing
   d3.select('#graph-g')
+    .selectAll('.group')
+    .data(data)
+    .enter()
+    .append('g')
+    .attr('class', 'group')
+    .attr('transform', d => `translate(${x(d.Act)}, 0)`)
+    .attr('data', data)
 }
 
 /**
@@ -44,6 +52,18 @@ export function createGroups (data, x) {
  * @param {*} tip The tooltip to show when each bar is hovered and hide when it's not
  */
 export function drawBars (y, xSubgroup, players, height, color, tip) {
-  // TODO : Draw the bars
-  d3.select('#graph-g')
+  d3.selectAll('.group')
+    .each(function (data) {
+      d3.select(this)
+        .selectAll('g')
+        .data(data.Players)
+        .enter()
+        .append('rect')
+        .attr('x', (d) => xSubgroup(d.Player))
+        .attr('y', d => y(d.Count))
+        .attr('width', xSubgroup.bandwidth())
+        .attr('height', (d) => height - y(d.Count))
+        .attr('fill', (d) => color(d.Player))
+        .on('mouseover', tip.show)
+    })
 }

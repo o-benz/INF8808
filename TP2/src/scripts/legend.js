@@ -5,7 +5,25 @@
  * @param {*} color The color scale used throughout the visualisation
  */
 export function draw (data, color) {
-  // TODO : Generate the legend in the div with class "legend". Each SVG rectangle
-  // should have a width and height set to 15.
   // Tip : Append one div per legend element using class "legend-element".
+  d3.select('div.legend')
+    .selectAll('.legend-element')
+    .data(data)
+    .enter()
+    .append('div')
+    .attr('class', 'legend-element')
+    .each(function (d) {
+      d3.select(this)
+        .append('div')
+        .style('background-color', color(d))
+        .style('width', '15px')
+        .style('height', '15px')
+        .style('border', '1px')
+        .style('border-style', 'solid')
+        .style('border-color', 'black')
+        .style('margin-right', '4px')
+      d3.select(this)
+        .append('span')
+        .text(d)
+    })
 }

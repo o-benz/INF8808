@@ -8,8 +8,8 @@
  * @returns {object[]} The dataset with properly capitalized names
  */
 export function cleanNames (data) {
-  // TODO: Clean the player name data
-  return []
+  data.forEach((row) => { row.Player = row.Player[0] + row.Player.slice(1).toLowerCase() })
+  return data
 }
 
 /**
@@ -19,8 +19,16 @@ export function cleanNames (data) {
  * @returns {string[]} The names of the top 5 players with most lines
  */
 export function getTopPlayers (data) {
-  // TODO: Find the five top players with the most lines in the play
-  return []
+  const NB_TOP_PLAYERS = 5
+
+  const nbLinesMap = new Map()
+  data.forEach((row) => {
+    const playerLines = nbLinesMap.get(row.Player) || 0
+    nbLinesMap.set(row.Player, playerLines + 1)
+  })
+  const sortedArrayLines = Array.from(nbLinesMap).sort((a, b) => a[1] - b[1]).reverse()
+  const topPlayers = sortedArrayLines.slice(0, NB_TOP_PLAYERS).map((player) => player[0])
+  return topPlayers
 }
 
 /**
@@ -47,8 +55,28 @@ export function getTopPlayers (data) {
  * @returns {object[]} The nested data set grouping the line count by player and by act
  */
 export function summarizeLines (data) {
-  // TODO : Generate the data structure as defined above
-  return []
+  const actMaps = new Map()
+  data.forEach((row) => {
+    if (!actMaps.has(row.Act)) {
+      actMaps.set(row.Act, new Map())
+    }
+    const actMap = actMaps.get(row.Act)
+    const playerLines = actMap.get(row.Player) || 0
+    actMap.set(row.Player, playerLines + 1)
+  })
+
+  const res = []
+  actMaps.forEach((actMap, act) => {
+    const players = []
+    actMap.forEach((playerLines, player) => {
+      players.push({
+        Player: player,
+        Count: playerLines
+      })
+    })
+    res.push({ Act: act, Players: players })
+  })
+  return res
 }
 
 /**
@@ -61,8 +89,21 @@ export function summarizeLines (data) {
  * @returns {object[]} The dataset with players not in the top 5 summarized as 'Other'
  */
 export function replaceOthers (data, top) {
-  // TODO : For each act, sum the lines uttered by players not in the top 5 for the play
-  // and replace these players in the data structure by a player with name 'Other' and
-  // a line count corresponding to the sum of lines
-  return []
+  const res = []
+  data.forEach((act) => {
+    const filteredAct = { Act: act.Act, Players: [] }
+
+    const otherLines = act.Players.reduce((acc, player) => {
+      if (!top.includes(player.Player)) {
+        acc += player.Count
+      }
+      return acc
+    }, 0)
+
+    filteredAct.Players = act.Players.filter((player) => top.includes(player.Player))
+    filteredAct.Players.push({ Player: 'Other', Count: otherLines })
+
+    res.push(filteredAct)
+  })
+  return res
 }
