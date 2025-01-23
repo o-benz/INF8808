@@ -56,7 +56,10 @@ export function drawBars (y, xSubgroup, players, height, color, tip) {
     .each(function (data) {
       d3.select(this)
         .selectAll('g')
-        .data(data.Players)
+        .data(data.Players.map(player => ({
+          ...player,
+          Act: data.Act
+        })))
         .enter()
         .append('rect')
         .attr('x', (d) => xSubgroup(d.Player))
@@ -64,6 +67,8 @@ export function drawBars (y, xSubgroup, players, height, color, tip) {
         .attr('width', xSubgroup.bandwidth())
         .attr('height', (d) => height - y(d.Count))
         .attr('fill', (d) => color(d.Player))
-        .on('mouseover', tip.show)
+        .on('mouseover', function (event, d) {
+          tip.show(d, this)
+        })
     })
 }
