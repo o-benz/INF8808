@@ -45,31 +45,27 @@ export function setRectHandler (xScale, yScale, rectSelected, rectUnselected, se
  * @param {*} xScale The xScale to be used when placing the text in the square
  * @param {*} yScale The yScale to be used when placing the text in the square
  */
-export function rectSelected (element, xScale, yScale) {
-  // TODO : Display the number of trees on the selected element
-  // Make sure the nimber is centered. If there are 1000 or more
-  // trees, display the text in white so it contrasts with the background.
+export function rectSelected(element, xScale, yScale) {
+  const data = element.datum(); 
+  const treeCount = data.Comptes;
 
-    const data = element.datum(); // Get the data bound to this rectangle
-    
-    // Get the number of trees (d.Comptes)
-    const treeCount = data.Comptes;
-    console.log('number of three', treeCount);
-    
-    // Display the tree count at the center of the rectangle
-    element.append('text')
+  const svg = d3.select('.heatmap-svg');
+
+  svg.selectAll('.tree-count').remove();
+
+  svg.append('text')
       .attr('class', 'tree-count')
       .attr('x', xScale(data.Plantation_Year) + xScale.bandwidth() / 2)
       .attr('y', yScale(data.Arrond_Nom) + yScale.bandwidth() / 2)
-      .attr('dy', '.35em')  // Vertical centering
+      .attr('dy', '.35em')  
       .attr('text-anchor', 'middle')
       .attr('fill', treeCount >= 1000 ? 'white' : 'black')
+      .style('font-size', '14px') 
       .text(treeCount);
-    
-    // Set opacity to 75%
-    element.style('opacity', 0.75)
 
+  element.style('opacity', 0.75);
 }
+
 
 /**
  * The function to be called when the rectangle or group
@@ -81,11 +77,7 @@ export function rectSelected (element, xScale, yScale) {
  * @param {*} element The selection of rectangles in "selected" state
  */
 export function rectUnselected (element) {
-    // Remove the tree count text
-    //
     element.selectAll('.tree-count').remove();
-    
-    // Restore the opacity to 100%
     element.style('opacity', 1);
   
 }
@@ -97,12 +89,10 @@ export function rectUnselected (element) {
  * @param {number} year The year associated with the tick text to make bold
  */
 export function selectTicks(name, year) {
-  // Make the X-axis tick corresponding to the year bold
   d3.selectAll('.x.axis text')
     .filter(d => d === year)
     .style('font-weight', 'bold');
   
-  // Make the Y-axis tick corresponding to the neighborhood bold
   d3.selectAll('.y.axis text')
     .filter(d => d === name)
     .style('font-weight', 'bold');
@@ -113,7 +103,6 @@ export function selectTicks(name, year) {
  * Returns the font weight of all ticks to normal.
  */
 export function unselectTicks() {
-  // Reset the font weight for all X and Y axis ticks
   d3.selectAll('.x.axis text').style('font-weight', 'normal');
   d3.selectAll('.y.axis text').style('font-weight', 'normal');
 }

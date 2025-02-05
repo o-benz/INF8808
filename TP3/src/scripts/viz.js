@@ -63,7 +63,7 @@ export function drawXAxis (xScale) {
   svg.selectAll('.x.axis').remove()
   svg.append('g')
     .attr('class', 'x axis')
-    .attr('transform', 'translate(0,0)')
+    .attr('transform', 'translate(0,20)')
     .call(d3.axisTop(xScale))
 }
 

@@ -56,7 +56,6 @@ export function initLegendAxis () {
 export function draw (x, y, height, width, fill, colorScale) {
   const svg = d3.select('.heatmap-svg');
   
-  // Sélectionne le rectangle de la légende et lui applique les attributs
   svg.select('.legend.bar')
     .attr('x', x)
     .attr('y', y)
@@ -64,17 +63,16 @@ export function draw (x, y, height, width, fill, colorScale) {
     .attr('height', height)
     .style('fill', fill);
   
-  // Crée une échelle pour l'axe de la légende
+  //échelle légende
   const legendScale = d3.scaleLinear()
     .domain(colorScale.domain())
     .range([height, 0]);
   
-  // Crée un axe à gauche pour la légende
+  // axe legend
   const legendAxis = d3.axisLeft(legendScale)
-    .ticks(5) // Ajustez le nombre de ticks si nécessaire
-    .tickFormat(d3.format('.0f')); // Format des ticks
+    .ticks(5) 
+    .tickFormat(d3.format('.0f')); 
 
-  // Ajoute l'axe de la légende
   svg.select('.legend.axis')
     .attr('transform', `translate(${x}, ${y})`)
     .call(legendAxis);
