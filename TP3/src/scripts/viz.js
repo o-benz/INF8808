@@ -57,6 +57,7 @@ export function updateYScale (yScale, neighborhoodNames, height) {
  */
 export function drawXAxis (xScale) {
   const svg = d3.select('.heatmap-svg')
+  svg.selectAll('.x.axis').remove()
   svg.append('g')
     .attr('class', 'x axis')
     .attr('transform', 'translate(0,0)')
@@ -71,6 +72,7 @@ export function drawXAxis (xScale) {
  */
 export function drawYAxis (yScale, width) {
   const svg = d3.select('.heatmap-svg')
+  svg.selectAll('.y.axis').remove()
   svg.append('g')
     .attr('class', 'y axis')
     .attr('transform', `translate(${width},0)`)
@@ -83,7 +85,7 @@ export function drawYAxis (yScale, width) {
 export function rotateYTicks () {
   d3.selectAll('.y.axis text')
     .attr('transform', 'rotate(-30)')
-    .style('text-anchor', 'end')
+    .style('text-anchor', 'start')
 }
 
 /**
