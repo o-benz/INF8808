@@ -34,7 +34,7 @@ export function appendRects (data) {
  */
 export function updateXScale (xScale, data, width, range) {
   const years = range(2010, 2020)
-  xScale.domain(years).range([120, width])
+  xScale.domain(years).range([150, width])
 }
 
 /**
@@ -45,8 +45,8 @@ export function updateXScale (xScale, data, width, range) {
  * @param {number} height The height of the diagram
  */
 export function updateYScale (yScale, neighborhoodNames, height) {
-  neighborhoodNames.sort()
-  yScale.domain(neighborhoodNames).range([height, 40])
+  neighborhoodNames.sort((a, b) => b.localeCompare(a))
+  yScale.domain(neighborhoodNames).range([height + 35, 35])
 }
 
 /**
