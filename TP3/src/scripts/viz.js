@@ -1,3 +1,4 @@
+import { setRectHandler } from './hover.js';
 
 /**
  * Sets the domain of the color scale
@@ -23,6 +24,8 @@ export function appendRects (data) {
     .append('g')
     .append('rect')
     .attr('class', 'heatmap-rect')
+
+
 }
 
 /**
@@ -35,7 +38,7 @@ export function appendRects (data) {
  */
 export function updateXScale (xScale, data, width, range) {
   const years = range(2010, 2020)
-  xScale.domain(years).range([0, width])
+  xScale.domain(years).range([120, width])
 }
 
 /**
@@ -47,7 +50,7 @@ export function updateXScale (xScale, data, width, range) {
  */
 export function updateYScale (yScale, neighborhoodNames, height) {
   neighborhoodNames.sort()
-  yScale.domain(neighborhoodNames).range([height, 0])
+  yScale.domain(neighborhoodNames).range([height, 40])
 }
 
 /**

@@ -79,10 +79,10 @@ import * as d3Chromatic from 'd3-scale-chromatic'
       viz.rotateYTicks()
 
       viz.updateRects(xScale, yScale, colorScale)
-
+      
       hover.setRectHandler(xScale, yScale, hover.rectSelected, hover.rectUnselected, hover.selectTicks, hover.unselectTicks)
 
-      legend.draw(margin.left / 2, margin.top + 5, graphSize.height - 10, 15, 'url(#gradient)', colorScale)
+      legend.draw(margin.left /4, margin.top + 5, graphSize.height - 10, 15, 'url(#gradient)', colorScale)
     }
 
     window.addEventListener('resize', () => {

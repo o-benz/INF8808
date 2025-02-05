@@ -14,6 +14,24 @@
  */
 export function setRectHandler (xScale, yScale, rectSelected, rectUnselected, selectTicks, unselectTicks) {
   // TODO : Select the squares and set their event handlers
+  const svg = d3.select('.heatmap-svg');
+  
+  // Select all the rectangles and bind the event handlers
+  svg.selectAll('.heatmap-rect')
+    .on('mouseover', function(event, d) {
+      // Call rectSelected to update the appearance of the rectangle
+      rectSelected(d3.select(this), xScale, yScale);
+      
+      // Highlight the corresponding ticks
+      selectTicks(d.Arrond_Nom, d.Plantation_Year);
+    })
+    .on('mouseout', function(event, d) {
+      // Call rectUnselected to restore the appearance of the rectangle
+      rectUnselected(d3.select(this));
+      
+      // Unhighlight the ticks
+      unselectTicks();
+    });
 }
 
 /**
@@ -31,6 +49,26 @@ export function rectSelected (element, xScale, yScale) {
   // TODO : Display the number of trees on the selected element
   // Make sure the nimber is centered. If there are 1000 or more
   // trees, display the text in white so it contrasts with the background.
+
+    const data = element.datum(); // Get the data bound to this rectangle
+    
+    // Get the number of trees (d.Comptes)
+    const treeCount = data.Comptes;
+    console.log('number of three', treeCount);
+    
+    // Display the tree count at the center of the rectangle
+    element.append('text')
+      .attr('class', 'tree-count')
+      .attr('x', xScale(data.Plantation_Year) + xScale.bandwidth() / 2)
+      .attr('y', yScale(data.Arrond_Nom) + yScale.bandwidth() / 2)
+      .attr('dy', '.35em')  // Vertical centering
+      .attr('text-anchor', 'middle')
+      .attr('fill', treeCount >= 1000 ? 'white' : 'black')
+      .text(treeCount);
+    
+    // Set opacity to 75%
+    element.style('opacity', 0.75)
+
 }
 
 /**
@@ -43,7 +81,13 @@ export function rectSelected (element, xScale, yScale) {
  * @param {*} element The selection of rectangles in "selected" state
  */
 export function rectUnselected (element) {
-  // TODO : Unselect the element
+    // Remove the tree count text
+    //
+    element.selectAll('.tree-count').remove();
+    
+    // Restore the opacity to 100%
+    element.style('opacity', 1);
+  
 }
 
 /**
@@ -52,13 +96,24 @@ export function rectUnselected (element) {
  * @param {string} name The name of the neighborhood associated with the tick text to make bold
  * @param {number} year The year associated with the tick text to make bold
  */
-export function selectTicks (name, year) {
-  // TODO : Make the ticks bold
+export function selectTicks(name, year) {
+  // Make the X-axis tick corresponding to the year bold
+  d3.selectAll('.x.axis text')
+    .filter(d => d === year)
+    .style('font-weight', 'bold');
+  
+  // Make the Y-axis tick corresponding to the neighborhood bold
+  d3.selectAll('.y.axis text')
+    .filter(d => d === name)
+    .style('font-weight', 'bold');
 }
+
 
 /**
  * Returns the font weight of all ticks to normal.
  */
-export function unselectTicks () {
-  // TODO : Unselect the ticks
+export function unselectTicks() {
+  // Reset the font weight for all X and Y axis ticks
+  d3.selectAll('.x.axis text').style('font-weight', 'normal');
+  d3.selectAll('.y.axis text').style('font-weight', 'normal');
 }
