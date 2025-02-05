@@ -13,25 +13,17 @@
  * @param {Function} unselectTicks The function to call to remove "selected" mode from the ticks
  */
 export function setRectHandler (xScale, yScale, rectSelected, rectUnselected, selectTicks, unselectTicks) {
-  // TODO : Select the squares and set their event handlers
-  const svg = d3.select('.heatmap-svg');
-  
-  // Select all the rectangles and bind the event handlers
+  // Select the squares and set their event handlers
+  const svg = d3.select('.heatmap-svg')
   svg.selectAll('.heatmap-rect')
-    .on('mouseover', function(event, d) {
-      // Call rectSelected to update the appearance of the rectangle
-      rectSelected(d3.select(this), xScale, yScale);
-      
-      // Highlight the corresponding ticks
-      selectTicks(d.Arrond_Nom, d.Plantation_Year);
+    .on('mouseover', function (event, d) {
+      rectSelected(d3.select(this), xScale, yScale)
+      selectTicks(d.Arrond_Nom, d.Plantation_Year)
     })
-    .on('mouseout', function(event, d) {
-      // Call rectUnselected to restore the appearance of the rectangle
-      rectUnselected(d3.select(this));
-      
-      // Unhighlight the ticks
-      unselectTicks();
-    });
+    .on('mouseout', function (event, d) {
+      rectUnselected(d3.select(this))
+      unselectTicks()
+    })
 }
 
 /**
@@ -45,27 +37,22 @@ export function setRectHandler (xScale, yScale, rectSelected, rectUnselected, se
  * @param {*} xScale The xScale to be used when placing the text in the square
  * @param {*} yScale The yScale to be used when placing the text in the square
  */
-export function rectSelected(element, xScale, yScale) {
-  const data = element.datum(); 
-  const treeCount = data.Comptes;
-
-  const svg = d3.select('.heatmap-svg');
-
-  svg.selectAll('.tree-count').remove();
-
+export function rectSelected (element, xScale, yScale) {
+  const data = element.datum()
+  const treeCount = data.Comptes
+  const svg = d3.select('.heatmap-svg')
+  svg.selectAll('.tree-count').remove()
   svg.append('text')
-      .attr('class', 'tree-count')
-      .attr('x', xScale(data.Plantation_Year) + xScale.bandwidth() / 2)
-      .attr('y', yScale(data.Arrond_Nom) + yScale.bandwidth() / 2)
-      .attr('dy', '.35em')  
-      .attr('text-anchor', 'middle')
-      .attr('fill', treeCount >= 1000 ? 'white' : 'black')
-      .style('font-size', '14px') 
-      .text(treeCount);
-
-  element.style('opacity', 0.75);
+    .attr('class', 'tree-count')
+    .attr('x', xScale(data.Plantation_Year) + xScale.bandwidth() / 2)
+    .attr('y', yScale(data.Arrond_Nom) + yScale.bandwidth() / 2)
+    .attr('dy', '.35em')
+    .attr('text-anchor', 'middle')
+    .attr('fill', treeCount >= 1000 ? 'white' : 'black')
+    .style('font-size', '14px')
+    .text(treeCount)
+  element.style('opacity', 0.75)
 }
-
 
 /**
  * The function to be called when the rectangle or group
@@ -77,9 +64,8 @@ export function rectSelected(element, xScale, yScale) {
  * @param {*} element The selection of rectangles in "selected" state
  */
 export function rectUnselected (element) {
-    element.selectAll('.tree-count').remove();
-    element.style('opacity', 1);
-  
+  element.selectAll('.tree-count').remove()
+  element.style('opacity', 1)
 }
 
 /**
@@ -88,21 +74,19 @@ export function rectUnselected (element) {
  * @param {string} name The name of the neighborhood associated with the tick text to make bold
  * @param {number} year The year associated with the tick text to make bold
  */
-export function selectTicks(name, year) {
+export function selectTicks (name, year) {
   d3.selectAll('.x.axis text')
     .filter(d => d === year)
-    .style('font-weight', 'bold');
-  
+    .style('font-weight', 'bold')
   d3.selectAll('.y.axis text')
     .filter(d => d === name)
-    .style('font-weight', 'bold');
+    .style('font-weight', 'bold')
 }
-
 
 /**
  * Returns the font weight of all ticks to normal.
  */
-export function unselectTicks() {
-  d3.selectAll('.x.axis text').style('font-weight', 'normal');
-  d3.selectAll('.y.axis text').style('font-weight', 'normal');
+export function unselectTicks () {
+  d3.selectAll('.x.axis text').style('font-weight', 'normal')
+  d3.selectAll('.y.axis text').style('font-weight', 'normal')
 }

@@ -54,26 +54,22 @@ export function initLegendAxis () {
  * @param {*} colorScale The color scale represented by the legend
  */
 export function draw (x, y, height, width, fill, colorScale) {
-  const svg = d3.select('.heatmap-svg');
-  
+  const svg = d3.select('.heatmap-svg')
   svg.select('.legend.bar')
     .attr('x', x)
     .attr('y', y)
     .attr('width', width)
     .attr('height', height)
-    .style('fill', fill);
-  
-  //échelle légende
+    .style('fill', fill)
+  // échelle légende
   const legendScale = d3.scaleLinear()
     .domain(colorScale.domain())
-    .range([height, 0]);
-  
+    .range([height, 0])
   // axe legend
   const legendAxis = d3.axisLeft(legendScale)
-    .ticks(5) 
-    .tickFormat(d3.format('.0f')); 
-
+    .ticks(5)
+    .tickFormat(d3.format('.0f'))
   svg.select('.legend.axis')
     .attr('transform', `translate(${x}, ${y})`)
-    .call(legendAxis);
+    .call(legendAxis)
 }

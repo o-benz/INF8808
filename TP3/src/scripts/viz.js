@@ -1,5 +1,3 @@
-import { setRectHandler } from './hover.js';
-
 /**
  * Sets the domain of the color scale
  *
@@ -24,8 +22,6 @@ export function appendRects (data) {
     .append('g')
     .append('rect')
     .attr('class', 'heatmap-rect')
-
-
 }
 
 /**
