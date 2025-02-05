@@ -6,7 +6,8 @@
  * @param {object[]} data The data to be displayed
  */
 export function setColorScaleDomain (colorScale, data) {
-  // TODO : Set domain of color scale
+  const counts = data.map(d => d.Counts)
+  colorScale.domain([0, d3.max(counts)])
 }
 
 /**
@@ -15,7 +16,12 @@ export function setColorScaleDomain (colorScale, data) {
  * @param {object[]} data The data to use for binding
  */
 export function appendRects (data) {
-  // TODO : Append SVG rect elements
+  const svg = d3.select('.heatmap-svg')
+  svg.selectAll('g')
+    .data(data)
+    .enter()
+    .append('g')
+    .append('rect')
 }
 
 /**
@@ -27,7 +33,8 @@ export function appendRects (data) {
  * @param {Function} range A utilitary funtion that could be useful to generate a list of numbers in a range
  */
 export function updateXScale (xScale, data, width, range) {
-  // TODO : Update X scale
+  const years = range(2010, 2020)
+  xScale.domain(years).range([0, width])
 }
 
 /**
@@ -38,8 +45,8 @@ export function updateXScale (xScale, data, width, range) {
  * @param {number} height The height of the diagram
  */
 export function updateYScale (yScale, neighborhoodNames, height) {
-  // TODO : Update Y scale
-  // Make sure to sort the neighborhood names alphabetically
+  neighborhoodNames.sort()
+  yScale.domain(neighborhoodNames).range([height, 0])
 }
 
 /**
@@ -48,7 +55,11 @@ export function updateYScale (yScale, neighborhoodNames, height) {
  *  @param {*} xScale The scale to use to draw the axis
  */
 export function drawXAxis (xScale) {
-  // TODO : Draw X axis
+  const svg = d3.select('.heatmap-svg')
+  svg.append('g')
+    .attr('class', 'x axis')
+    .attr('transform', 'translate(0,0)')
+    .call(d3.axisTop(xScale))
 }
 
 /**
@@ -58,14 +69,20 @@ export function drawXAxis (xScale) {
  * @param {number} width The width of the graphic
  */
 export function drawYAxis (yScale, width) {
-  // TODO : Draw Y axis
+  const svg = d3.select('.heatmap-svg')
+  svg.append('g')
+    .attr('class', 'y axis')
+    .attr('transform', `translate(${width},0)`)
+    .call(d3.axisRight(yScale))
 }
 
 /**
  * Rotates the ticks on the Y axis 30 degrees towards the left.
  */
 export function rotateYTicks () {
-  // TODO : Rotate Y ticks.
+  d3.selectAll('.y.axis text')
+    .attr('transform', 'rotate(-30)')
+    .style('text-anchor', 'end')
 }
 
 /**
@@ -77,5 +94,11 @@ export function rotateYTicks () {
  * @param {*} colorScale The color scale used to set the rectangles' colors
  */
 export function updateRects (xScale, yScale, colorScale) {
-  // TODO : Set position, size and fill of rectangles according to bound data
+  const svg = d3.select('.heatmap-svg')
+  svg.selectAll('rect')
+    .attr('x', d => xScale(d.Plantation_Year))
+    .attr('y', d => yScale(d.Arrond_Nom))
+    .attr('width', xScale.bandwidth())
+    .attr('height', yScale.bandwidth())
+    .attr('fill', d => colorScale(d.Counts))
 }

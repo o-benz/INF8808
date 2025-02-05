@@ -5,7 +5,7 @@
  * @returns {string[]} The names of the neighorhoods in the data set
  */
 export function getNeighborhoodNames (data) {
-  return new Set(data.map((d) => { return d.Arrond_Nom }))
+  return Array.from(new Set(data.map((d) => { return d.Arrond_Nom })))
 }
 
 /**
@@ -34,10 +34,10 @@ export function summarizeYearlyCounts (data) {
     const id = String(d.Arrond) + d.Date_Plantation.getFullYear()
     if (maps.has(id)) {
       const t = maps.get(id)
-      t.Counts += 1
+      t.Comptes += 1
       maps.set(id, t)
     } else {
-      maps.set(id, { Arrond_Nom: d.Arrond_Nom, Plantation_Year: d.Date_Plantation.getFullYear(), Counts: 1 })
+      maps.set(id, { Arrond_Nom: d.Arrond_Nom, Plantation_Year: d.Date_Plantation.getFullYear(), Comptes: 1 })
     }
   })
   return Array.from(maps.values())
@@ -59,7 +59,7 @@ export function fillMissingData (data, neighborhoods, start, end, range) {
   neighborhoods.forEach((n) => {
     range(start, end).forEach((y) => {
       if (!data.some((d) => { return d.Arrond_Nom === n && d.Plantation_Year === y })) {
-        data.push({ Arrond_Nom: n, Plantation_Year: y, Counts: 0 })
+        data.push({ Arrond_Nom: n, Plantation_Year: y, Comptes: 0 })
       }
     })
   })
