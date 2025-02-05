@@ -6,7 +6,7 @@
  * @param {object[]} data The data to be displayed
  */
 export function setColorScaleDomain (colorScale, data) {
-  const counts = data.map(d => d.Counts)
+  const counts = data.map(d => d.Comptes)
   colorScale.domain([0, d3.max(counts)])
 }
 
@@ -97,10 +97,7 @@ export function rotateYTicks () {
 export function updateRects (xScale, yScale, colorScale) {
   const svg = d3.select('.heatmap-svg')
   svg.selectAll('.heatmap-rect')
-    .attr('x', d => {
-      console.log(d)
-      return xScale(d.Plantation_Year)
-    })
+    .attr('x', d => xScale(d.Plantation_Year))
     .attr('y', d => yScale(d.Arrond_Nom))
     .attr('width', xScale.bandwidth())
     .attr('height', yScale.bandwidth())
