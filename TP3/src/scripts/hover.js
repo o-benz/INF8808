@@ -49,6 +49,8 @@ export function rectSelected (element, xScale, yScale) {
     .attr('text-anchor', 'middle')
     .attr('fill', treeCount >= 1000 ? 'white' : 'black')
     .style('font-size', '14px')
+    .style('user-select', 'none')
+    .style('pointer-events', 'none')
     .text(treeCount)
   element.style('opacity', 0.75)
 }
@@ -63,7 +65,7 @@ export function rectSelected (element, xScale, yScale) {
  * @param {*} element The selection of rectangles in "selected" state
  */
 export function rectUnselected (element) {
-  element.selectAll('.tree-count').remove()
+  d3.selectAll('.tree-count').remove()
   element.style('opacity', 1)
 }
 
