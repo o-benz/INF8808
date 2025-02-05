@@ -22,6 +22,7 @@ export function appendRects (data) {
     .enter()
     .append('g')
     .append('rect')
+    .attr('class', 'heatmap-rect')
 }
 
 /**
@@ -95,10 +96,13 @@ export function rotateYTicks () {
  */
 export function updateRects (xScale, yScale, colorScale) {
   const svg = d3.select('.heatmap-svg')
-  svg.selectAll('rect')
-    .attr('x', d => xScale(d.Plantation_Year))
+  svg.selectAll('.heatmap-rect')
+    .attr('x', d => {
+      console.log(d)
+      return xScale(d.Plantation_Year)
+    })
     .attr('y', d => yScale(d.Arrond_Nom))
     .attr('width', xScale.bandwidth())
     .attr('height', yScale.bandwidth())
-    .attr('fill', d => colorScale(d.Counts))
+    .attr('fill', d => colorScale(d.Comptes))
 }
