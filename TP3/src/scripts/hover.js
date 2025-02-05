@@ -13,7 +13,6 @@
  * @param {Function} unselectTicks The function to call to remove "selected" mode from the ticks
  */
 export function setRectHandler (xScale, yScale, rectSelected, rectUnselected, selectTicks, unselectTicks) {
-  // Select the squares and set their event handlers
   const svg = d3.select('.heatmap-svg')
   svg.selectAll('.heatmap-rect')
     .on('mouseover', function (event, d) {

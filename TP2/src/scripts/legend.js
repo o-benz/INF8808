@@ -5,7 +5,6 @@
  * @param {*} color The color scale used throughout the visualisation
  */
 export function draw (data, color) {
-  // Tip : Append one div per legend element using class "legend-element".
   d3.select('div.legend')
     .selectAll('.legend-element')
     .data(data)

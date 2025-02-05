@@ -61,11 +61,9 @@ export function draw (x, y, height, width, fill, colorScale) {
     .attr('width', width)
     .attr('height', height)
     .style('fill', fill)
-  // échelle légende
   const legendScale = d3.scaleLinear()
     .domain(colorScale.domain())
     .range([height, 0])
-  // axe legend
   const legendAxis = d3.axisLeft(legendScale)
     .ticks(5)
     .tickFormat(d3.format('.0f'))

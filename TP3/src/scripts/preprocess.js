@@ -30,7 +30,6 @@ export function filterYears (data, start, end) {
 export function summarizeYearlyCounts (data) {
   const maps = new Map()
   data.forEach((d) => {
-    // Create a unique id for each neighborhood and year combination
     const id = String(d.Arrond) + d.Date_Plantation.getFullYear()
     if (maps.has(id)) {
       const t = maps.get(id)

@@ -30,7 +30,7 @@ export function updateYScale (scale, data, height) {
  * @param {*} x The graph's x scale
  */
 export function createGroups (data, x) {
-  d3.selectAll('.group').remove() // Remove previous groups for resizing
+  d3.selectAll('.group').remove()
   d3.select('#graph-g')
     .selectAll('.group')
     .data(data)
