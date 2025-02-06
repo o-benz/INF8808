@@ -16,10 +16,9 @@ export function setColorScaleDomain (colorScale, data) {
  */
 export function appendRects (data) {
   const svg = d3.select('.heatmap-svg')
-  svg.selectAll('g')
+  svg.selectAll('rect.heatmap-rect')
     .data(data)
     .enter()
-    .append('g')
     .append('rect')
     .attr('class', 'heatmap-rect')
 }
