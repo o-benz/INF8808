@@ -1,0 +1,2442 @@
+{
+   "2015":[
+      {
+         "Country Name":"Albania",
+         "GDP":3952.8012152447,
+         "CO2":1.6026480342,
+         "Population":2880703,
+         "Continent":"Europe"
+      },
+      {
+         "Country Name":"Algeria",
+         "GDP":4177.8925154689,
+         "CO2":3.8545565756,
+         "Population":39728025,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Andorra",
+         "GDP":35762.523073758,
+         "CO2":5.9697863122,
+         "Population":78011,
+         "Continent":"Europe"
+      },
+      {
+         "Country Name":"Angola",
+         "GDP":4166.979683865,
+         "CO2":1.2402454621,
+         "Population":27884381,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Antigua and Barbuda",
+         "GDP":14286.0931598293,
+         "CO2":5.8395464164,
+         "Population":93566,
+         "Continent":"North America"
+      },
+      {
+         "Country Name":"Argentina",
+         "GDP":13789.060424772,
+         "CO2":4.6640107479,
+         "Population":43131966,
+         "Continent":"South America"
+      },
+      {
+         "Country Name":"Armenia",
+         "GDP":3607.2966967227,
+         "CO2":1.6420040929,
+         "Population":2925553,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Australia",
+         "GDP":56755.7217124249,
+         "CO2":15.3397835782,
+         "Population":23815995,
+         "Continent":"Oceania"
+      },
+      {
+         "Country Name":"Austria",
+         "GDP":44178.0473777432,
+         "CO2":7.0885922326,
+         "Population":8642699,
+         "Continent":"Europe"
+      },
+      {
+         "Country Name":"Azerbaijan",
+         "GDP":5500.3103824441,
+         "CO2":3.8964060862,
+         "Population":9649341,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Bahamas",
+         "GDP":31405.9635601781,
+         "CO2":5.3896784124,
+         "Population":374206,
+         "Continent":"North America"
+      },
+      {
+         "Country Name":"Bahrain",
+         "GDP":22688.9443998144,
+         "CO2":23.9770864329,
+         "Population":1371851,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Bangladesh",
+         "GDP":1248.4533977837,
+         "CO2":0.5188508588,
+         "Population":156256276,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Barbados",
+         "GDP":16525.0732500596,
+         "CO2":4.3954031207,
+         "Population":285324,
+         "Continent":"North America"
+      },
+      {
+         "Country Name":"Belarus",
+         "GDP":5949.1063069975,
+         "CO2":6.1414108853,
+         "Population":9489616,
+         "Continent":"Europe"
+      },
+      {
+         "Country Name":"Belgium",
+         "GDP":40991.8081381432,
+         "CO2":8.8118358063,
+         "Population":11274196,
+         "Continent":"Europe"
+      },
+      {
+         "Country Name":"Belize",
+         "GDP":4775.9556482782,
+         "CO2":1.6052452948,
+         "Population":360933,
+         "Continent":"North America"
+      },
+      {
+         "Country Name":"Benin",
+         "GDP":1076.7977160117,
+         "CO2":0.5734914455,
+         "Population":10575952,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Bhutan",
+         "GDP":2752.6642079027,
+         "CO2":1.4660422929,
+         "Population":727876,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Bolivia",
+         "GDP":3035.9722148928,
+         "CO2":1.84670254,
+         "Population":10869730,
+         "Continent":"South America"
+      },
+      {
+         "Country Name":"Bosnia and Herzegovina",
+         "GDP":4727.2775462221,
+         "CO2":5.4149119909,
+         "Population":3429361,
+         "Continent":"Europe"
+      },
+      {
+         "Country Name":"Botswana",
+         "GDP":6799.8752335277,
+         "CO2":2.5608459596,
+         "Population":2120716,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Brazil",
+         "GDP":8814.0009868126,
+         "CO2":2.4667880484,
+         "Population":204471769,
+         "Continent":"South America"
+      },
+      {
+         "Country Name":"Bulgaria",
+         "GDP":7053.6037063871,
+         "CO2":6.2325795616,
+         "Population":7177991,
+         "Continent":"Europe"
+      },
+      {
+         "Country Name":"Burkina Faso",
+         "GDP":653.3269795454,
+         "CO2":0.1838498773,
+         "Population":18110624,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Burundi",
+         "GDP":305.5497727974,
+         "CO2":0.0397016544,
+         "Population":10160030,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Cambodia",
+         "GDP":1162.9049199715,
+         "CO2":0.5559054587,
+         "Population":15521436,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Cameroon",
+         "GDP":1327.5030171149,
+         "CO2":0.3402836628,
+         "Population":23298368,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Canada",
+         "GDP":43585.5119817751,
+         "CO2":15.3889503062,
+         "Population":35702908,
+         "Continent":"North America"
+      },
+      {
+         "Country Name":"Central African Republic",
+         "GDP":377.4230016794,
+         "CO2":0.0652902071,
+         "Population":4493170,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Chad",
+         "GDP":776.019532308,
+         "CO2":0.070944141,
+         "Population":14110975,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Chile",
+         "GDP":13574.171830724,
+         "CO2":4.6325856585,
+         "Population":17969353,
+         "Continent":"South America"
+      },
+      {
+         "Country Name":"China",
+         "GDP":8066.9424235674,
+         "CO2":7.3985245664,
+         "Population":1371220000,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Colombia",
+         "GDP":6175.8761315128,
+         "CO2":1.9803991388,
+         "Population":47520667,
+         "Continent":"South America"
+      },
+      {
+         "Country Name":"Comoros",
+         "GDP":1242.6031895579,
+         "CO2":0.21697555,
+         "Population":777424,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"The Democratic Republic of Congo",
+         "GDP":497.3169608055,
+         "CO2":0.0372257194,
+         "Population":76244544,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Congo",
+         "GDP":1762.032017738,
+         "CO2":0.665272611,
+         "Population":4856095,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Costa Rica",
+         "GDP":11299.1355423011,
+         "CO2":1.5499147655,
+         "Population":4847804,
+         "Continent":"North America"
+      },
+      {
+         "Country Name":"Cote d'Ivoire",
+         "GDP":1972.5461076975,
+         "CO2":0.4719105966,
+         "Population":23226143,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Croatia",
+         "GDP":11782.8990799829,
+         "CO2":4.1183486837,
+         "Population":4203604,
+         "Continent":"Europe"
+      },
+      {
+         "Country Name":"Cuba",
+         "GDP":7694.0119195241,
+         "CO2":2.5823302897,
+         "Population":11324781,
+         "Continent":"North America"
+      },
+      {
+         "Country Name":"Cyprus",
+         "GDP":23333.7149112129,
+         "CO2":5.2873706379,
+         "Population":1160985,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Czech Republic",
+         "GDP":17715.6168523009,
+         "CO2":9.4682203086,
+         "Population":10546059,
+         "Continent":"Europe"
+      },
+      {
+         "Country Name":"Denmark",
+         "GDP":53254.8560039631,
+         "CO2":5.4222855949,
+         "Population":5683483,
+         "Continent":"Europe"
+      },
+      {
+         "Country Name":"Djibouti",
+         "GDP":2658.9787526018,
+         "CO2":0.6860632412,
+         "Population":913993,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Dominica",
+         "GDP":7596.4350622626,
+         "CO2":2.4727252293,
+         "Population":71183,
+         "Continent":"North America"
+      },
+      {
+         "Country Name":"Dominican Republic",
+         "GDP":6921.5172283795,
+         "CO2":2.3474951564,
+         "Population":10281680,
+         "Continent":"North America"
+      },
+      {
+         "Country Name":"Ecuador",
+         "GDP":6124.4916426207,
+         "CO2":2.6690443264,
+         "Population":16212020,
+         "Continent":"South America"
+      },
+      {
+         "Country Name":"Egypt",
+         "GDP":3598.9709482021,
+         "CO2":2.4294197346,
+         "Population":92442547,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"El Salvador",
+         "GDP":3705.5779459818,
+         "CO2":1.0829757646,
+         "Population":6325124,
+         "Continent":"North America"
+      },
+      {
+         "Country Name":"Equatorial Guinea",
+         "GDP":11283.46560612,
+         "CO2":5.1589192927,
+         "Population":1168568,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Estonia",
+         "GDP":17522.230186252,
+         "CO2":12.4388527657,
+         "Population":1315407,
+         "Continent":"Europe"
+      },
+      {
+         "Country Name":"Ethiopia",
+         "GDP":640.5418913137,
+         "CO2":0.1360458639,
+         "Population":100835458,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Faroe Islands",
+         "GDP":52404.6593331379,
+         "CO2":12.6682483195,
+         "Population":48051,
+         "Continent":"Europe"
+      },
+      {
+         "Country Name":"Fiji",
+         "GDP":5390.7452371174,
+         "CO2":2.4823036816,
+         "Population":868627,
+         "Continent":"Oceania"
+      },
+      {
+         "Country Name":"Finland",
+         "GDP":42784.6983616432,
+         "CO2":7.7756422949,
+         "Population":5479531,
+         "Continent":"Europe"
+      },
+      {
+         "Country Name":"Gabon",
+         "GDP":7384.7158700318,
+         "CO2":2.7017419646,
+         "Population":1947686,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Gambia",
+         "GDP":649.5108294178,
+         "CO2":0.2513979845,
+         "Population":2085860,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Georgia",
+         "GDP":4014.1859441933,
+         "CO2":2.6302008227,
+         "Population":3725276,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Germany",
+         "GDP":41139.5445685533,
+         "CO2":8.9004192988,
+         "Population":81686611,
+         "Continent":"Europe"
+      },
+      {
+         "Country Name":"Ghana",
+         "GDP":1743.8509964087,
+         "CO2":0.5943738071,
+         "Population":27849205,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Greece",
+         "GDP":18167.7737169162,
+         "CO2":6.0124403896,
+         "Population":10820883,
+         "Continent":"Europe"
+      },
+      {
+         "Country Name":"Greenland",
+         "GDP":44536.4013080999,
+         "CO2":9.0835263927,
+         "Population":56114,
+         "Continent":"North America"
+      },
+      {
+         "Country Name":"Grenada",
+         "GDP":9096.8706459541,
+         "CO2":2.3755417476,
+         "Population":109599,
+         "Continent":"North America"
+      },
+      {
+         "Country Name":"Guatemala",
+         "GDP":3994.6369128847,
+         "CO2":1.0171310993,
+         "Population":15567419,
+         "Continent":"North America"
+      },
+      {
+         "Country Name":"Guinea",
+         "GDP":769.256013746,
+         "CO2":0.2364029213,
+         "Population":11432088,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Guinea-Bissau",
+         "GDP":603.1585129424,
+         "CO2":0.1604257881,
+         "Population":1737202,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Guyana",
+         "GDP":4166.1285155988,
+         "CO2":2.6280504331,
+         "Population":767432,
+         "Continent":"South America"
+      },
+      {
+         "Country Name":"Haiti",
+         "GDP":815.7282844103,
+         "CO2":0.2742825001,
+         "Population":10695542,
+         "Continent":"North America"
+      },
+      {
+         "Country Name":"Honduras",
+         "GDP":2302.201379362,
+         "CO2":1.0993455882,
+         "Population":9112916,
+         "Continent":"North America"
+      },
+      {
+         "Country Name":"Hong Kong",
+         "GDP":42431.8882817277,
+         "CO2":5.8490543524,
+         "Population":7291300,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Hungary",
+         "GDP":12651.5683423004,
+         "CO2":4.5126734375,
+         "Population":9843028,
+         "Continent":"Europe"
+      },
+      {
+         "Country Name":"Iceland",
+         "GDP":52564.4291863302,
+         "CO2":6.0079319257,
+         "Population":330815,
+         "Continent":"Europe"
+      },
+      {
+         "Country Name":"India",
+         "GDP":1605.6054335549,
+         "CO2":1.784333765,
+         "Population":1310152403,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Indonesia",
+         "GDP":3331.6951275863,
+         "CO2":1.9844524136,
+         "Population":258383256,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Iran",
+         "GDP":4904.3268774798,
+         "CO2":8.2820751841,
+         "Population":78492215,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Ireland",
+         "GDP":61995.4227789928,
+         "CO2":7.6366636275,
+         "Population":4701957,
+         "Continent":"Europe"
+      },
+      {
+         "Country Name":"Israel",
+         "GDP":35776.7951710172,
+         "CO2":7.9005841219,
+         "Population":8380100,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Jamaica",
+         "GDP":4907.5037197432,
+         "CO2":2.6192666881,
+         "Population":2891021,
+         "Continent":"North America"
+      },
+      {
+         "Country Name":"Japan",
+         "GDP":34524.4698609337,
+         "CO2":9.1536414217,
+         "Population":127141000,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Jordan",
+         "GDP":4105.4489608324,
+         "CO2":2.8274432571,
+         "Population":9266575,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Kazakhstan",
+         "GDP":10510.7718884148,
+         "CO2":13.8000541647,
+         "Population":17542806,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Kenya",
+         "GDP":1336.883348856,
+         "CO2":0.35545402,
+         "Population":47878336,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Kiribati",
+         "GDP":1542.5752495838,
+         "CO2":0.5619670062,
+         "Population":110930,
+         "Continent":"Oceania"
+      },
+      {
+         "Country Name":"South Korea",
+         "GDP":28732.2310762599,
+         "CO2":11.7093976399,
+         "Population":51014947,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Kuwait",
+         "GDP":29869.5293908248,
+         "CO2":24.2424489472,
+         "Population":3835591,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Kyrgyz Republic",
+         "GDP":1121.0828351074,
+         "CO2":1.7538120499,
+         "Population":5956900,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Laos",
+         "GDP":2134.711795678,
+         "CO2":1.3419772906,
+         "Population":6741164,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Latvia",
+         "GDP":13698.9379476476,
+         "CO2":3.5436365723,
+         "Population":1977527,
+         "Continent":"Europe"
+      },
+      {
+         "Country Name":"Lebanon",
+         "GDP":7644.5486571821,
+         "CO2":3.745767203,
+         "Population":6532678,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Lesotho",
+         "GDP":1152.1398272487,
+         "CO2":1.1398038194,
+         "Population":2059021,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Liberia",
+         "GDP":710.3838577175,
+         "CO2":0.277142723,
+         "Population":4472230,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Libya",
+         "GDP":4337.9191391935,
+         "CO2":8.8802405304,
+         "Population":6418315,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Lithuania",
+         "GDP":14249.1149666026,
+         "CO2":4.5040486624,
+         "Population":2904910,
+         "Continent":"Europe"
+      },
+      {
+         "Country Name":"Luxembourg",
+         "GDP":101376.496574339,
+         "CO2":16.2425843217,
+         "Population":569604,
+         "Continent":"Europe"
+      },
+      {
+         "Country Name":"Macao",
+         "GDP":75340.9869811152,
+         "CO2":3.4715862378,
+         "Population":602085,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Madagascar",
+         "GDP":467.2353994328,
+         "CO2":0.1504078883,
+         "Population":24234088,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Malawi",
+         "GDP":380.5970331409,
+         "CO2":0.0687618492,
+         "Population":16745303,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Malaysia",
+         "GDP":9955.2421265361,
+         "CO2":7.7573906967,
+         "Population":30270962,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Maldives",
+         "GDP":9033.3904129872,
+         "CO2":2.8616005188,
+         "Population":454915,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Mali",
+         "GDP":751.4786686445,
+         "CO2":0.1816806201,
+         "Population":17438778,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Malta",
+         "GDP":24002.5232912389,
+         "CO2":3.6418449039,
+         "Population":445053,
+         "Continent":"Europe"
+      },
+      {
+         "Country Name":"Marshall Islands",
+         "GDP":3213.8372882536,
+         "CO2":2.4898239872,
+         "Population":57439,
+         "Continent":"Oceania"
+      },
+      {
+         "Country Name":"Mauritania",
+         "GDP":1524.0728825221,
+         "CO2":0.7150389949,
+         "Population":4046301,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Mauritius",
+         "GDP":9260.4473025064,
+         "CO2":3.337055532,
+         "Population":1262605,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Mexico",
+         "GDP":9605.9523510314,
+         "CO2":3.9631911282,
+         "Population":121858258,
+         "Continent":"North America"
+      },
+      {
+         "Country Name":"Moldova",
+         "GDP":2732.4571129373,
+         "CO2":1.7438926383,
+         "Population":2834530,
+         "Continent":"Europe"
+      },
+      {
+         "Country Name":"Mongolia",
+         "GDP":3918.5791738955,
+         "CO2":7.7658575012,
+         "Population":2998439,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Morocco",
+         "GDP":2875.2579851678,
+         "CO2":1.7676149534,
+         "Population":34663603,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Mozambique",
+         "GDP":589.8590281498,
+         "CO2":0.2398832379,
+         "Population":27042002,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Myanmar",
+         "GDP":1287.4304865712,
+         "CO2":0.4232862508,
+         "Population":52680726,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Namibia",
+         "GDP":4869.3784062979,
+         "CO2":1.7234822697,
+         "Population":2314904,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Nepal",
+         "GDP":792.5528905934,
+         "CO2":0.2314354183,
+         "Population":27015031,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Netherlands",
+         "GDP":45175.2318933798,
+         "CO2":10.1825736162,
+         "Population":16939923,
+         "Continent":"Europe"
+      },
+      {
+         "Country Name":"New Zealand",
+         "GDP":38615.9951849093,
+         "CO2":7.5914089257,
+         "Population":4595700,
+         "Continent":"Oceania"
+      },
+      {
+         "Country Name":"Nicaragua",
+         "GDP":2049.8496897615,
+         "CO2":0.8567591801,
+         "Population":6223240,
+         "Continent":"North America"
+      },
+      {
+         "Country Name":"Niger",
+         "GDP":483.3392822026,
+         "CO2":0.1013841199,
+         "Population":20001663,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Nigeria",
+         "GDP":2730.4303237015,
+         "CO2":0.6400031538,
+         "Population":181137448,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"North Macedonia",
+         "GDP":4840.2731228678,
+         "CO2":3.4142338294,
+         "Population":2079328,
+         "Continent":"Europe"
+      },
+      {
+         "Country Name":"Norway",
+         "GDP":74355.5158575643,
+         "CO2":9.0992871497,
+         "Population":5188607,
+         "Continent":"Europe"
+      },
+      {
+         "Country Name":"Oman",
+         "GDP":16028.7513645532,
+         "CO2":15.3224618662,
+         "Population":4267348,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Pakistan",
+         "GDP":1356.6677558265,
+         "CO2":0.9454211618,
+         "Population":199426964,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Palau",
+         "GDP":15871.8426266629,
+         "CO2":12.6627228984,
+         "Population":17665,
+         "Continent":"Oceania"
+      },
+      {
+         "Country Name":"Panama",
+         "GDP":13630.3079737945,
+         "CO2":2.8044302526,
+         "Population":3968487,
+         "Continent":"North America"
+      },
+      {
+         "Country Name":"Papua New Guinea",
+         "GDP":2679.3455878143,
+         "CO2":0.9226551057,
+         "Population":8107775,
+         "Continent":"Oceania"
+      },
+      {
+         "Country Name":"Paraguay",
+         "GDP":5406.7038570834,
+         "CO2":0.9424147665,
+         "Population":6688746,
+         "Continent":"South America"
+      },
+      {
+         "Country Name":"Peru",
+         "GDP":6229.101696126,
+         "CO2":1.7274319024,
+         "Population":30470734,
+         "Continent":"South America"
+      },
+      {
+         "Country Name":"Philippines",
+         "GDP":3001.0403710686,
+         "CO2":1.1469653212,
+         "Population":102113212,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Poland",
+         "GDP":12572.4266045561,
+         "CO2":7.5200390076,
+         "Population":37986412,
+         "Continent":"Europe"
+      },
+      {
+         "Country Name":"Portugal",
+         "GDP":19242.3664710981,
+         "CO2":4.7555946684,
+         "Population":10358076,
+         "Continent":"Europe"
+      },
+      {
+         "Country Name":"Qatar",
+         "GDP":63039.0165548075,
+         "CO2":41.6421622085,
+         "Population":2565710,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Romania",
+         "GDP":8977.4373822717,
+         "CO2":3.6191415397,
+         "Population":19815616,
+         "Continent":"Europe"
+      },
+      {
+         "Country Name":"Russian Federation",
+         "GDP":9313.01362485,
+         "CO2":11.7852203799,
+         "Population":144096870,
+         "Continent":"Europe"
+      },
+      {
+         "Country Name":"Rwanda",
+         "GDP":754.9067890076,
+         "CO2":0.0845059372,
+         "Population":11369071,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Samoa",
+         "GDP":4073.6660098064,
+         "CO2":1.2127764026,
+         "Population":193513,
+         "Continent":"Oceania"
+      },
+      {
+         "Country Name":"Saudi Arabia",
+         "GDP":20627.9327820675,
+         "CO2":20.4022516221,
+         "Population":31717667,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Senegal",
+         "GDP":1219.2486624304,
+         "CO2":0.7297044907,
+         "Population":14578459,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Seychelles",
+         "GDP":14745.3414415607,
+         "CO2":5.2599364155,
+         "Population":93419,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Sierra Leone",
+         "GDP":588.2284527028,
+         "CO2":0.1487883151,
+         "Population":7171914,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Singapore",
+         "GDP":55646.6187469505,
+         "CO2":11.1023602159,
+         "Population":5535002,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Slovak Republic",
+         "GDP":16309.073235592,
+         "CO2":5.7677589941,
+         "Population":5423801,
+         "Continent":"Europe"
+      },
+      {
+         "Country Name":"Slovenia",
+         "GDP":20881.7667686947,
+         "CO2":6.0721835533,
+         "Population":2063531,
+         "Continent":"Europe"
+      },
+      {
+         "Country Name":"Solomon Islands",
+         "GDP":1914.467929757,
+         "CO2":0.3161636695,
+         "Population":603118,
+         "Continent":"Oceania"
+      },
+      {
+         "Country Name":"South Africa",
+         "GDP":5734.6336291533,
+         "CO2":8.3766553419,
+         "Population":55386367,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Spain",
+         "GDP":25732.0183647454,
+         "CO2":5.3934189492,
+         "Population":46444832,
+         "Continent":"Europe"
+      },
+      {
+         "Country Name":"Sri Lanka",
+         "GDP":3843.7806718444,
+         "CO2":0.9591556986,
+         "Population":20970000,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Saint Kitts and Nevis",
+         "GDP":18029.3255386512,
+         "CO2":4.5834814366,
+         "Population":51203,
+         "Continent":"North America"
+      },
+      {
+         "Country Name":"Saint Lucia",
+         "GDP":10093.8997626748,
+         "CO2":2.2928218126,
+         "Population":179126,
+         "Continent":"North America"
+      },
+      {
+         "Country Name":"Saint Vincent and the Grenadines",
+         "GDP":6920.878073808,
+         "CO2":2.0157950672,
+         "Population":109148,
+         "Continent":"North America"
+      },
+      {
+         "Country Name":"Suriname",
+         "GDP":8561.9741785514,
+         "CO2":3.0823778533,
+         "Population":559143,
+         "Continent":"South America"
+      },
+      {
+         "Country Name":"Sweden",
+         "GDP":51545.4836095322,
+         "CO2":3.8963240416,
+         "Population":9799186,
+         "Continent":"Europe"
+      },
+      {
+         "Country Name":"Switzerland",
+         "GDP":82081.5971239792,
+         "CO2":4.3070357901,
+         "Population":8282396,
+         "Continent":"Europe"
+      },
+      {
+         "Country Name":"Tajikistan",
+         "GDP":929.0958572237,
+         "CO2":0.5920793023,
+         "Population":8454028,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Tanzania",
+         "GDP":947.9334464879,
+         "CO2":0.2512208146,
+         "Population":51482633,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Thailand",
+         "GDP":5840.0465229433,
+         "CO2":4.1383522179,
+         "Population":68714511,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Togo",
+         "GDP":570.9102790134,
+         "CO2":0.3600322429,
+         "Population":7323158,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Tonga",
+         "GDP":4320.6379901138,
+         "CO2":1.2007322809,
+         "Population":100781,
+         "Continent":"Oceania"
+      },
+      {
+         "Country Name":"Trinidad and Tobago",
+         "GDP":18289.704340369,
+         "CO2":33.755084914,
+         "Population":1370328,
+         "Continent":"North America"
+      },
+      {
+         "Country Name":"Tunisia",
+         "GDP":3861.688531135,
+         "CO2":2.7059828269,
+         "Population":11179949,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Turkey",
+         "GDP":10948.7246069027,
+         "CO2":4.4612311548,
+         "Population":78529409,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Turkmenistan",
+         "GDP":6432.6807019502,
+         "CO2":12.6990918887,
+         "Population":5565287,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Tuvalu",
+         "GDP":3197.7722519439,
+         "CO2":0.9911703757,
+         "Population":11099,
+         "Continent":"Oceania"
+      },
+      {
+         "Country Name":"Uganda",
+         "GDP":840.4015714558,
+         "CO2":0.1397712409,
+         "Population":38225453,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Ukraine",
+         "GDP":2124.6623187838,
+         "CO2":4.3469759602,
+         "Population":45154036,
+         "Continent":"Europe"
+      },
+      {
+         "Country Name":"United Arab Emirates",
+         "GDP":38663.3838066363,
+         "CO2":21.0263924905,
+         "Population":9262900,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"United Kingdom",
+         "GDP":44974.8318771782,
+         "CO2":6.220239615,
+         "Population":65116219,
+         "Continent":"Europe"
+      },
+      {
+         "Country Name":"United States",
+         "GDP":56822.5188202456,
+         "CO2":15.9898662581,
+         "Population":320635163,
+         "Continent":"North America"
+      },
+      {
+         "Country Name":"Uruguay",
+         "GDP":15613.7642726429,
+         "CO2":1.9635379039,
+         "Population":3412009,
+         "Continent":"South America"
+      },
+      {
+         "Country Name":"Uzbekistan",
+         "GDP":2615.025134487,
+         "CO2":3.2885827617,
+         "Population":31298900,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Vanuatu",
+         "GDP":2801.9398477886,
+         "CO2":0.4868955851,
+         "Population":271130,
+         "Continent":"Oceania"
+      },
+      {
+         "Country Name":"Vietnam",
+         "GDP":2085.1014840988,
+         "CO2":2.0321075516,
+         "Population":92677076,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Yemen",
+         "GDP":1395.4396331748,
+         "CO2":0.4970910702,
+         "Population":26497889,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Zambia",
+         "GDP":1337.7961101409,
+         "CO2":0.2854278582,
+         "Population":15879361,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Zimbabwe",
+         "GDP":1445.071061988,
+         "CO2":0.8916238721,
+         "Population":13814629,
+         "Continent":"Africa"
+      }
+   ],
+   "2000":[
+      {
+         "Country Name":"Algeria",
+         "GDP":1764.9738298279,
+         "CO2":2.8303799646,
+         "Population":31042235,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Andorra",
+         "GDP":21854.2468030614,
+         "CO2":8.0192842942,
+         "Population":65390,
+         "Continent":"Europe"
+      },
+      {
+         "Country Name":"Angola",
+         "GDP":556.8363180866,
+         "CO2":0.5819614963,
+         "Population":16395473,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Albania",
+         "GDP":1126.6833176274,
+         "CO2":0.9781746809,
+         "Population":3089027,
+         "Continent":"Europe"
+      },
+      {
+         "Country Name":"Antigua and Barbuda",
+         "GDP":10920.8426880891,
+         "CO2":4.5345453589,
+         "Population":76016,
+         "Continent":"North America"
+      },
+      {
+         "Country Name":"Argentina",
+         "GDP":7708.1009960541,
+         "CO2":3.854991948,
+         "Population":36870787,
+         "Continent":"South America"
+      },
+      {
+         "Country Name":"Armenia",
+         "GDP":622.7421390635,
+         "CO2":1.1289175007,
+         "Population":3069591,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Australia",
+         "GDP":21679.2478424147,
+         "CO2":17.2006098261,
+         "Population":19153000,
+         "Continent":"Oceania"
+      },
+      {
+         "Country Name":"Austria",
+         "GDP":24564.4582948404,
+         "CO2":7.7719711727,
+         "Population":8011566,
+         "Continent":"Europe"
+      },
+      {
+         "Country Name":"Azerbaijan",
+         "GDP":655.0974326026,
+         "CO2":3.6662710285,
+         "Population":8048600,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Bahamas",
+         "GDP":27097.6108115725,
+         "CO2":6.5453362009,
+         "Population":298051,
+         "Continent":"North America"
+      },
+      {
+         "Country Name":"Bahrain",
+         "GDP":13636.3962320368,
+         "CO2":28.3158780098,
+         "Population":664611,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Bangladesh",
+         "GDP":418.0689683114,
+         "CO2":0.216415811,
+         "Population":127657854,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Barbados",
+         "GDP":11268.2540559453,
+         "CO2":4.2407896433,
+         "Population":271515,
+         "Continent":"North America"
+      },
+      {
+         "Country Name":"Belarus",
+         "GDP":1276.2880341,
+         "CO2":5.3897452906,
+         "Population":9979610,
+         "Continent":"Europe"
+      },
+      {
+         "Country Name":"Belgium",
+         "GDP":23041.5347290428,
+         "CO2":11.2296676991,
+         "Population":10251250,
+         "Continent":"Europe"
+      },
+      {
+         "Country Name":"Belize",
+         "GDP":3364.3329357297,
+         "CO2":1.6013424176,
+         "Population":247315,
+         "Continent":"North America"
+      },
+      {
+         "Country Name":"Benin",
+         "GDP":511.4002269631,
+         "CO2":0.2328609686,
+         "Population":6865951,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Bhutan",
+         "GDP":718.1878307161,
+         "CO2":0.6700878649,
+         "Population":591021,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Bolivia",
+         "GDP":997.5824598868,
+         "CO2":1.3146423063,
+         "Population":8418264,
+         "Continent":"South America"
+      },
+      {
+         "Country Name":"Bosnia and Herzegovina",
+         "GDP":1467.7764771605,
+         "CO2":3.6756259904,
+         "Population":3751176,
+         "Continent":"Europe"
+      },
+      {
+         "Country Name":"Botswana",
+         "GDP":3522.308678064,
+         "CO2":2.300613874,
+         "Population":1643334,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Brazil",
+         "GDP":3749.7532499617,
+         "CO2":1.8764413068,
+         "Population":174790340,
+         "Continent":"South America"
+      },
+      {
+         "Country Name":"Bulgaria",
+         "GDP":1621.2429608025,
+         "CO2":5.3280343425,
+         "Population":8170172,
+         "Continent":"Europe"
+      },
+      {
+         "Country Name":"Burkina Faso",
+         "GDP":254.7175291027,
+         "CO2":0.0897168508,
+         "Population":11607942,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Burundi",
+         "GDP":136.4639708003,
+         "CO2":0.0425401298,
+         "Population":6378871,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Cambodia",
+         "GDP":302.5771635651,
+         "CO2":0.1626058525,
+         "Population":12155239,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Cameroon",
+         "GDP":649.991845405,
+         "CO2":0.2212404388,
+         "Population":15513945,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Canada",
+         "GDP":24190.2496150045,
+         "CO2":17.4146389543,
+         "Population":30685730,
+         "Continent":"North America"
+      },
+      {
+         "Country Name":"Central African Republic",
+         "GDP":251.2068774067,
+         "CO2":0.0735328575,
+         "Population":3640427,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Chad",
+         "GDP":165.7629865678,
+         "CO2":0.0583689799,
+         "Population":8355654,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Chile",
+         "GDP":5074.9016237501,
+         "CO2":3.8335066987,
+         "Population":15342353,
+         "Continent":"South America"
+      },
+      {
+         "Country Name":"China",
+         "GDP":959.3724836397,
+         "CO2":2.6968624332,
+         "Population":1262645000,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Colombia",
+         "GDP":2520.480897959,
+         "CO2":1.4616194492,
+         "Population":39629968,
+         "Continent":"South America"
+      },
+      {
+         "Country Name":"Comoros",
+         "GDP":645.8186908021,
+         "CO2":0.1893144184,
+         "Population":542357,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"The Democratic Republic of Congo",
+         "GDP":405.2162529917,
+         "CO2":0.0193058073,
+         "Population":47105826,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Congo",
+         "GDP":1029.5770368504,
+         "CO2":0.3353451145,
+         "Population":3127411,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Costa Rica",
+         "GDP":3772.8700115315,
+         "CO2":1.3817054532,
+         "Population":3962372,
+         "Continent":"North America"
+      },
+      {
+         "Country Name":"Cote d'Ivoire",
+         "GDP":651.3059067911,
+         "CO2":0.4127268931,
+         "Population":16454668,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Croatia",
+         "GDP":4849.5342232548,
+         "CO2":4.3282119248,
+         "Population":4468302,
+         "Continent":"Europe"
+      },
+      {
+         "Country Name":"Cuba",
+         "GDP":2747.0985751944,
+         "CO2":2.3442713431,
+         "Population":11126430,
+         "Continent":"North America"
+      },
+      {
+         "Country Name":"Cyprus",
+         "GDP":14388.3480609917,
+         "CO2":7.3978320559,
+         "Population":943290,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Czech Republic",
+         "GDP":6011.615220357,
+         "CO2":12.0722405118,
+         "Population":10255063,
+         "Continent":"Europe"
+      },
+      {
+         "Country Name":"Denmark",
+         "GDP":30743.5476816354,
+         "CO2":9.6131755542,
+         "Population":5339616,
+         "Continent":"Europe"
+      },
+      {
+         "Country Name":"Djibouti",
+         "GDP":768.1760767471,
+         "CO2":0.5110203126,
+         "Population":717584,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Dominica",
+         "GDP":4787.7801706947,
+         "CO2":1.4741708543,
+         "Population":69650,
+         "Continent":"North America"
+      },
+      {
+         "Country Name":"Dominican Republic",
+         "GDP":2869.1058607253,
+         "CO2":2.3362116723,
+         "Population":8471321,
+         "Continent":"North America"
+      },
+      {
+         "Country Name":"Ecuador",
+         "GDP":1445.279324429,
+         "CO2":1.6338103494,
+         "Population":12681123,
+         "Continent":"South America"
+      },
+      {
+         "Country Name":"Egypt",
+         "GDP":1450.476242433,
+         "CO2":2.0532177092,
+         "Population":68831561,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"El Salvador",
+         "GDP":2001.5380092447,
+         "CO2":0.977171457,
+         "Population":5887936,
+         "Continent":"North America"
+      },
+      {
+         "Country Name":"Equatorial Guinea",
+         "GDP":1725.5547376752,
+         "CO2":0.7561685371,
+         "Population":606181,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Estonia",
+         "GDP":4075.9706385107,
+         "CO2":10.6362516419,
+         "Population":1396985,
+         "Continent":"Europe"
+      },
+      {
+         "Country Name":"Ethiopia",
+         "GDP":124.4608002718,
+         "CO2":0.0536000982,
+         "Population":66224804,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Faroe Islands",
+         "GDP":22653.3160466352,
+         "CO2":14.7511714989,
+         "Population":46735,
+         "Continent":"Europe"
+      },
+      {
+         "Country Name":"Fiji",
+         "GDP":2076.5687843165,
+         "CO2":1.0399553148,
+         "Population":811006,
+         "Continent":"Oceania"
+      },
+      {
+         "Country Name":"Finland",
+         "GDP":24285.4668205162,
+         "CO2":10.0838428278,
+         "Population":5176209,
+         "Continent":"Europe"
+      },
+      {
+         "Country Name":"Gabon",
+         "GDP":4125.7166635171,
+         "CO2":3.8211599205,
+         "Population":1228360,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Gambia",
+         "GDP":594.1516429887,
+         "CO2":0.2087154693,
+         "Population":1317703,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Georgia",
+         "GDP":749.9085236116,
+         "CO2":1.1125664101,
+         "Population":4077131,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Germany",
+         "GDP":23635.9292203977,
+         "CO2":10.0956398829,
+         "Population":82211508,
+         "Continent":"Europe"
+      },
+      {
+         "Country Name":"Ghana",
+         "GDP":258.4709594879,
+         "CO2":0.3262073745,
+         "Population":19278856,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Greece",
+         "GDP":12042.9537310995,
+         "CO2":8.47843382,
+         "Population":10805808,
+         "Continent":"Europe"
+      },
+      {
+         "Country Name":"Greenland",
+         "GDP":19004.1072910304,
+         "CO2":8.0908896797,
+         "Population":56200,
+         "Continent":"North America"
+      },
+      {
+         "Country Name":"Grenada",
+         "GDP":5057.1739652677,
+         "CO2":1.8543074694,
+         "Population":102833,
+         "Continent":"North America"
+      },
+      {
+         "Country Name":"Guatemala",
+         "GDP":1664.2989582705,
+         "CO2":0.8555455112,
+         "Population":11589761,
+         "Continent":"North America"
+      },
+      {
+         "Country Name":"Guinea",
+         "GDP":363.4824789991,
+         "CO2":0.1993532126,
+         "Population":8240730,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Guinea-Bissau",
+         "GDP":308.1441192937,
+         "CO2":0.1221009555,
+         "Population":1201301,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Guyana",
+         "GDP":954.4041524913,
+         "CO2":2.1558600001,
+         "Population":746715,
+         "Continent":"South America"
+      },
+      {
+         "Country Name":"Haiti",
+         "GDP":467.1475587532,
+         "CO2":0.1585719238,
+         "Population":8463806,
+         "Continent":"North America"
+      },
+      {
+         "Country Name":"Honduras",
+         "GDP":1080.4621286624,
+         "CO2":0.7652471082,
+         "Population":6574509,
+         "Continent":"North America"
+      },
+      {
+         "Country Name":"Hong Kong",
+         "GDP":25756.6637783278,
+         "CO2":6.0674682671,
+         "Population":6665000,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Hungary",
+         "GDP":4624.2816567029,
+         "CO2":5.4672966949,
+         "Population":10210971,
+         "Continent":"Europe"
+      },
+      {
+         "Country Name":"Iceland",
+         "GDP":32018.0636814331,
+         "CO2":7.6937821162,
+         "Population":281205,
+         "Continent":"Europe"
+      },
+      {
+         "Country Name":"India",
+         "GDP":443.3141933917,
+         "CO2":0.9766016864,
+         "Population":1056575549,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Indonesia",
+         "GDP":780.1902009866,
+         "CO2":1.2453982499,
+         "Population":211513823,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Iran",
+         "GDP":1670.0094699785,
+         "CO2":5.6723233121,
+         "Population":65623405,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Ireland",
+         "GDP":26241.3646146973,
+         "CO2":10.8347426425,
+         "Population":3805174,
+         "Continent":"Europe"
+      },
+      {
+         "Country Name":"Israel",
+         "GDP":21043.5749322433,
+         "CO2":9.5817794562,
+         "Population":6289000,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Jamaica",
+         "GDP":3384.6948609055,
+         "CO2":3.8828994301,
+         "Population":2654701,
+         "Continent":"North America"
+      },
+      {
+         "Country Name":"Japan",
+         "GDP":38532.0408752935,
+         "CO2":9.6125223071,
+         "Population":126843000,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Jordan",
+         "GDP":1674.8252612565,
+         "CO2":3.0273819798,
+         "Population":5122493,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Kazakhstan",
+         "GDP":1229.000958445,
+         "CO2":7.9348541814,
+         "Population":14883626,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Kenya",
+         "GDP":397.4826587775,
+         "CO2":0.3259218327,
+         "Population":31964557,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Kiribati",
+         "GDP":796.8881747598,
+         "CO2":0.3910493388,
+         "Population":84396,
+         "Continent":"Oceania"
+      },
+      {
+         "Country Name":"South Korea",
+         "GDP":12256.9935679503,
+         "CO2":9.5209317601,
+         "Population":47008111,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Kuwait",
+         "GDP":18440.3785212446,
+         "CO2":26.1892326281,
+         "Population":2045123,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Kyrgyz Republic",
+         "GDP":279.6195692609,
+         "CO2":0.9462453046,
+         "Population":4898400,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Laos",
+         "GDP":325.1869982258,
+         "CO2":0.1818449575,
+         "Population":5323700,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Latvia",
+         "GDP":3351.230705684,
+         "CO2":2.6826229647,
+         "Population":2367550,
+         "Continent":"Europe"
+      },
+      {
+         "Country Name":"Lebanon",
+         "GDP":4491.637258893,
+         "CO2":3.96780298,
+         "Population":3842778,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Lesotho",
+         "GDP":436.4883519883,
+         "CO2":0.9109756769,
+         "Population":2032804,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Liberia",
+         "GDP":306.8328947331,
+         "CO2":0.1506215999,
+         "Population":2848456,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Libya",
+         "GDP":7142.7744518151,
+         "CO2":8.7933136378,
+         "Population":5357891,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Lithuania",
+         "GDP":3297.3547008411,
+         "CO2":3.4757290681,
+         "Population":3499536,
+         "Continent":"Europe"
+      },
+      {
+         "Country Name":"Luxembourg",
+         "GDP":48735.995492187,
+         "CO2":18.8855122622,
+         "Population":436300,
+         "Continent":"Europe"
+      },
+      {
+         "Country Name":"Macao",
+         "GDP":15710.0869270706,
+         "CO2":3.814594817,
+         "Population":427782,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Madagascar",
+         "GDP":293.6071574026,
+         "CO2":0.1188469624,
+         "Population":15766806,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Malawi",
+         "GDP":156.3857185999,
+         "CO2":0.0789397348,
+         "Population":11148758,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Malaysia",
+         "GDP":4043.6620514339,
+         "CO2":5.4209150136,
+         "Population":23194257,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Maldives",
+         "GDP":2234.5798655847,
+         "CO2":1.6143315271,
+         "Population":279398,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Mali",
+         "GDP":269.8711376917,
+         "CO2":0.0760437749,
+         "Population":10946445,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Malta",
+         "GDP":10391.004315879,
+         "CO2":5.4240695024,
+         "Population":390087,
+         "Continent":"Europe"
+      },
+      {
+         "Country Name":"Marshall Islands",
+         "GDP":2272.7227947116,
+         "CO2":1.9508009379,
+         "Population":50753,
+         "Continent":"Oceania"
+      },
+      {
+         "Country Name":"Mauritania",
+         "GDP":676.5676584013,
+         "CO2":0.4461377551,
+         "Population":2630219,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Mauritius",
+         "GDP":3929.0754950336,
+         "CO2":2.2677893928,
+         "Population":1186873,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Mexico",
+         "GDP":7157.8144998573,
+         "CO2":4.0281446346,
+         "Population":98899845,
+         "Continent":"North America"
+      },
+      {
+         "Country Name":"Moldova",
+         "GDP":440.6720306533,
+         "CO2":1.2015207695,
+         "Population":2923783,
+         "Continent":"Europe"
+      },
+      {
+         "Country Name":"Mongolia",
+         "GDP":474.2168965166,
+         "CO2":3.1310138658,
+         "Population":2397418,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Morocco",
+         "GDP":1334.9430510438,
+         "CO2":1.1775182324,
+         "Population":28793679,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Mozambique",
+         "GDP":313.5680341411,
+         "CO2":0.0761891126,
+         "Population":17711927,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Myanmar",
+         "GDP":190.6062319103,
+         "CO2":0.2159242629,
+         "Population":46719701,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Namibia",
+         "GDP":2136.4402428149,
+         "CO2":0.9154366141,
+         "Population":1794571,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Nepal",
+         "GDP":229.4902871214,
+         "CO2":0.1282011987,
+         "Population":23941110,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Netherlands",
+         "GDP":26149.41107829,
+         "CO2":10.9156798905,
+         "Population":15925513,
+         "Continent":"Europe"
+      },
+      {
+         "Country Name":"New Zealand",
+         "GDP":13641.1027183822,
+         "CO2":8.5493941986,
+         "Population":3857700,
+         "Continent":"Oceania"
+      },
+      {
+         "Country Name":"Nicaragua",
+         "GDP":1007.5014286172,
+         "CO2":0.742181468,
+         "Population":5069302,
+         "Continent":"North America"
+      },
+      {
+         "Country Name":"Niger",
+         "GDP":197.5244629446,
+         "CO2":0.0614858135,
+         "Population":11331557,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Nigeria",
+         "GDP":567.9307360096,
+         "CO2":0.6470425898,
+         "Population":122283850,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"North Macedonia",
+         "GDP":1854.1459561011,
+         "CO2":5.9289941759,
+         "Population":2034819,
+         "Continent":"Europe"
+      },
+      {
+         "Country Name":"Norway",
+         "GDP":38131.4606116242,
+         "CO2":8.8340157031,
+         "Population":4490967,
+         "Continent":"Europe"
+      },
+      {
+         "Country Name":"Oman",
+         "GDP":8601.2541699866,
+         "CO2":9.5637403973,
+         "Population":2267973,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Pakistan",
+         "GDP":576.1956005931,
+         "CO2":0.7478338292,
+         "Population":142343578,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Palau",
+         "GDP":7647.9298612929,
+         "CO2":10.9405391259,
+         "Population":19105,
+         "Continent":"Oceania"
+      },
+      {
+         "Country Name":"Panama",
+         "GDP":4060.3244929262,
+         "CO2":1.9107479454,
+         "Population":3030328,
+         "Continent":"North America"
+      },
+      {
+         "Country Name":"Papua New Guinea",
+         "GDP":602.186902266,
+         "CO2":0.4558990667,
+         "Population":5847586,
+         "Continent":"Oceania"
+      },
+      {
+         "Country Name":"Paraguay",
+         "GDP":1663.6052517195,
+         "CO2":0.6930044535,
+         "Population":5323201,
+         "Continent":"South America"
+      },
+      {
+         "Country Name":"Peru",
+         "GDP":1955.588006279,
+         "CO2":1.1450044641,
+         "Population":26459944,
+         "Continent":"South America"
+      },
+      {
+         "Country Name":"Philippines",
+         "GDP":1072.8090643393,
+         "CO2":0.9399326506,
+         "Population":77991755,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Poland",
+         "GDP":4492.7276035594,
+         "CO2":7.8227983287,
+         "Population":38258629,
+         "Continent":"Europe"
+      },
+      {
+         "Country Name":"Portugal",
+         "GDP":11497.7534604525,
+         "CO2":6.0964033851,
+         "Population":10289898,
+         "Continent":"Europe"
+      },
+      {
+         "Country Name":"Qatar",
+         "GDP":29976.117039047,
+         "CO2":58.6194646799,
+         "Population":592468,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Romania",
+         "GDP":1659.9076395455,
+         "CO2":4.040518655,
+         "Population":22442971,
+         "Continent":"Europe"
+      },
+      {
+         "Country Name":"Russian Federation",
+         "GDP":1771.5940590583,
+         "CO2":10.6270979157,
+         "Population":146596869,
+         "Continent":"Europe"
+      },
+      {
+         "Country Name":"Rwanda",
+         "GDP":218.6801627406,
+         "CO2":0.0665577555,
+         "Population":7933681,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Samoa",
+         "GDP":1542.0667358012,
+         "CO2":0.8197748404,
+         "Population":174454,
+         "Continent":"Oceania"
+      },
+      {
+         "Country Name":"Saudi Arabia",
+         "GDP":9171.3301448009,
+         "CO2":14.3698016385,
+         "Population":20663843,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Senegal",
+         "GDP":604.6540660132,
+         "CO2":0.4019662097,
+         "Population":9797734,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Seychelles",
+         "GDP":7578.8510529885,
+         "CO2":7.0509669547,
+         "Population":81131,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Sierra Leone",
+         "GDP":138.6986922438,
+         "CO2":0.0927833815,
+         "Population":4584571,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Singapore",
+         "GDP":23852.3270285975,
+         "CO2":12.1666243368,
+         "Population":4027887,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Slovak Republic",
+         "GDP":5413.1506206881,
+         "CO2":6.6593294883,
+         "Population":5388720,
+         "Continent":"Europe"
+      },
+      {
+         "Country Name":"Slovenia",
+         "GDP":10201.3035366727,
+         "CO2":7.2384036603,
+         "Population":1988925,
+         "Continent":"Europe"
+      },
+      {
+         "Country Name":"Solomon Islands",
+         "GDP":1054.3882457351,
+         "CO2":0.3732225076,
+         "Population":412660,
+         "Continent":"Oceania"
+      },
+      {
+         "Country Name":"South Africa",
+         "GDP":3032.4271382046,
+         "CO2":8.4208299209,
+         "Population":44967708,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Spain",
+         "GDP":14713.0657111519,
+         "CO2":7.2578243459,
+         "Population":40567864,
+         "Continent":"Europe"
+      },
+      {
+         "Country Name":"Sri Lanka",
+         "GDP":869.6965166092,
+         "CO2":0.5452381271,
+         "Population":18777601,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Saint Kitts and Nevis",
+         "GDP":9836.1955676002,
+         "CO2":3.910446068,
+         "Population":44074,
+         "Continent":"North America"
+      },
+      {
+         "Country Name":"Saint Lucia",
+         "GDP":5950.3511959662,
+         "CO2":2.2227220234,
+         "Population":156729,
+         "Continent":"North America"
+      },
+      {
+         "Country Name":"Saint Vincent and the Grenadines",
+         "GDP":3676.4396419726,
+         "CO2":1.3608698879,
+         "Population":107784,
+         "Continent":"North America"
+      },
+      {
+         "Country Name":"Suriname",
+         "GDP":2012.2602865639,
+         "CO2":4.6640570423,
+         "Population":470949,
+         "Continent":"South America"
+      },
+      {
+         "Country Name":"Sweden",
+         "GDP":29624.9126748618,
+         "CO2":5.5624300829,
+         "Population":8872109,
+         "Continent":"Europe"
+      },
+      {
+         "Country Name":"Switzerland",
+         "GDP":37868.3230595798,
+         "CO2":5.442630894,
+         "Population":7184250,
+         "Continent":"Europe"
+      },
+      {
+         "Country Name":"Tajikistan",
+         "GDP":138.4288795127,
+         "CO2":0.359837081,
+         "Population":6216341,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Tanzania",
+         "GDP":410.9523275931,
+         "CO2":0.0791434596,
+         "Population":33499180,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Thailand",
+         "GDP":2007.7351750668,
+         "CO2":2.7432901863,
+         "Population":62952642,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Togo",
+         "GDP":302.2063942943,
+         "CO2":0.2762684687,
+         "Population":4924402,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Tonga",
+         "GDP":2065.5026605323,
+         "CO2":0.9731456626,
+         "Population":97973,
+         "Continent":"Oceania"
+      },
+      {
+         "Country Name":"Trinidad and Tobago",
+         "GDP":6435.1646825283,
+         "CO2":18.8131717322,
+         "Population":1267153,
+         "Continent":"North America"
+      },
+      {
+         "Country Name":"Tunisia",
+         "GDP":2211.8268172855,
+         "CO2":2.0521315157,
+         "Population":9708350,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Turkey",
+         "GDP":4316.5489067777,
+         "CO2":3.4179419975,
+         "Population":63240194,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Turkmenistan",
+         "GDP":643.1747259925,
+         "CO2":8.3122173328,
+         "Population":4516133,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Tuvalu",
+         "GDP":1462.8546998183,
+         "CO2":0.7807110922,
+         "Population":9394,
+         "Continent":"Oceania"
+      },
+      {
+         "Country Name":"Uganda",
+         "GDP":261.868997701,
+         "CO2":0.0607802768,
+         "Population":23650172,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Ukraine",
+         "GDP":635.7005350756,
+         "CO2":6.5255322563,
+         "Population":49176500,
+         "Continent":"Europe"
+      },
+      {
+         "Country Name":"United Arab Emirates",
+         "GDP":33291.419366353,
+         "CO2":35.9157642701,
+         "Population":3134062,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"United Kingdom",
+         "GDP":28149.8700107891,
+         "CO2":9.199549233,
+         "Population":58892514,
+         "Continent":"Europe"
+      },
+      {
+         "Country Name":"United States",
+         "GDP":36334.9087770589,
+         "CO2":20.1787505069,
+         "Population":282162411,
+         "Continent":"North America"
+      },
+      {
+         "Country Name":"Uruguay",
+         "GDP":6875.0213275528,
+         "CO2":1.5983647495,
+         "Population":3319736,
+         "Continent":"South America"
+      },
+      {
+         "Country Name":"Uzbekistan",
+         "GDP":558.226802377,
+         "CO2":4.9418159543,
+         "Population":24650400,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Vanuatu",
+         "GDP":1470.5722652661,
+         "CO2":0.4559663084,
+         "Population":184972,
+         "Continent":"Oceania"
+      },
+      {
+         "Country Name":"Vietnam",
+         "GDP":390.0933260526,
+         "CO2":0.6713085524,
+         "Population":79910412,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Yemen",
+         "GDP":554.4486334278,
+         "CO2":0.8410747569,
+         "Population":17409072,
+         "Continent":"Asia"
+      },
+      {
+         "Country Name":"Zambia",
+         "GDP":345.6895543728,
+         "CO2":0.1749720429,
+         "Population":10415944,
+         "Continent":"Africa"
+      },
+      {
+         "Country Name":"Zimbabwe",
+         "GDP":563.0577410536,
+         "CO2":1.1718744227,
+         "Population":11881477,
+         "Continent":"Africa"
+      }
+   ]
+}
