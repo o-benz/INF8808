@@ -10,7 +10,19 @@
  */
 export function setRadiusScale (data) {
   // TODO : Set scale
-  return {}
+  const minPop = Math.min(
+    d3.min(data[2000], d => d.population),
+    d3.min(data[2015], d => d.population)
+  )
+
+  const maxPop = Math.max(
+    d3.max(data[2000], d => d.population),
+    d3.max(data[2015], d => d.population)
+  )
+
+  return d3.scaleLinear()
+    .domain([minPop, maxPop])
+    .range([5, 20])
 }
 
 /**
@@ -25,7 +37,8 @@ export function setRadiusScale (data) {
  */
 export function setColorScale (data) {
   // TODO : Set scale
-  return {}
+  return d3.scaleOrdinal(d3.schemeSet1)
+    .domain(data[2000].map(d => d.continent))
 }
 
 /**
@@ -37,7 +50,21 @@ export function setColorScale (data) {
  */
 export function setXScale (width, data) {
   // TODO : Set scale
-  return {}
+
+  console.log(data)
+  const minGDP = Math.min(
+    d3.min(data[2000], d => d.GDP),
+    d3.min(data[2015], d => d.GDP)
+  )
+
+  const maxGDP = Math.max(
+    d3.max(data[2000], d => d.GDP),
+    d3.max(data[2015], d => d.GDP)
+  )
+
+  return d3.scaleLog()
+    .domain([minGDP, maxGDP])
+    .range([0, width])
 }
 
 /**
@@ -49,5 +76,17 @@ export function setXScale (width, data) {
  */
 export function setYScale (height, data) {
   // TODO : Set scale
-  return {}
+  const minCO2 = Math.min(
+    d3.min(data[2000], d => d.CO2),
+    d3.min(data[2015], d => d.CO2)
+  )
+
+  const maxCO2 = Math.max(
+    d3.max(data[2000], d => d.CO2),
+    d3.max(data[2015], d => d.CO2)
+  )
+
+  return d3.scaleLog()
+    .domain([minCO2, maxCO2])
+    .range([height, 0])
 }
