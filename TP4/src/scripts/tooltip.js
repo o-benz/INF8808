@@ -8,5 +8,8 @@
  */
 export function getContents (d) {
   // TODO : Generate tooltip contents
-  return ''
+  return '<b>Country:</b> ' + d['Country Name'] + '<br>' +
+    '<b>Population:</b> ' + d.Population + '<br>' +
+    '<b>GDP:</b> ' + (d.GDP).toFixed(2) + ' $ (USD)<br>' +
+    '<b>CO2 Emissions:</b> ' + (d.CO2).toFixed(2) + ' metric tons'
 }

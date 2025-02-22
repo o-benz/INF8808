@@ -11,13 +11,13 @@
 export function setRadiusScale (data) {
   // TODO : Set scale
   const minPop = Math.min(
-    d3.min(data[2000], d => d.population),
-    d3.min(data[2015], d => d.population)
+    d3.min(data[2000], d => d.Population),
+    d3.min(data[2015], d => d.Population)
   )
 
   const maxPop = Math.max(
-    d3.max(data[2000], d => d.population),
-    d3.max(data[2015], d => d.population)
+    d3.max(data[2000], d => d.Population),
+    d3.max(data[2015], d => d.Population)
   )
 
   return d3.scaleLinear()
@@ -38,7 +38,7 @@ export function setRadiusScale (data) {
 export function setColorScale (data) {
   // TODO : Set scale
   return d3.scaleOrdinal(d3.schemeSet1)
-    .domain(data[2000].map(d => d.continent))
+    .domain(data[2000].map(d => d.Continent))
 }
 
 /**
@@ -50,8 +50,6 @@ export function setColorScale (data) {
  */
 export function setXScale (width, data) {
   // TODO : Set scale
-
-  console.log(data)
   const minGDP = Math.min(
     d3.min(data[2000], d => d.GDP),
     d3.min(data[2015], d => d.GDP)

@@ -7,6 +7,10 @@
  */
 export function positionLabels (g, width, height) {
   // TODO : Position axis labels
+  g.select('.x.axis-text')
+    .attr('transform', `translate(${width / 2}, ${height + 50})`)
+  g.select('.y.axis-text')
+    .attr('transform', `translate(${-50}, ${height / 2}) rotate(-90)`)
 }
 
 /**
@@ -22,6 +26,15 @@ export function drawCircles (data, rScale, colorScale) {
   // and each circle's color depends on its continent.
   // The fill opacity of each circle is 70%
   // The outline of the circles is white
+  d3.select('#graph-g')
+    .selectAll('circle')
+    .data(data)
+    .enter()
+    .append('circle')
+    .attr('r', d => rScale(d.Population))
+    .attr('fill', d => colorScale(d.Continent))
+    .attr('fill-opacity', 0.7)
+    .attr('stroke', 'white')
 }
 
 /**
@@ -32,6 +45,17 @@ export function drawCircles (data, rScale, colorScale) {
 export function setCircleHoverHandler (tip) {
   // TODO : Set hover handler. The tooltip shows on
   // hover and the opacity goes up to 100% (from 70%)
+
+  d3.select('#graph-g').call(tip)
+
+  d3.selectAll('circle')
+    .on('mouseover', (event, d) => {
+      console.log(event, d)
+      tip.show(d, this)
+    })
+    .on('mouseout', (event, d) => {
+      tip.hide()
+    })
 }
 
 /**
@@ -45,6 +69,11 @@ export function setCircleHoverHandler (tip) {
 export function moveCircles (xScale, yScale, transitionDuration) {
   // TODO : Set up the transition and place the circle centers
   // in x and y according to their GDP and CO2 respectively
+  d3.selectAll('circle')
+    .transition()
+    .duration(transitionDuration)
+    .attr('cx', d => xScale(d.GDP))
+    .attr('cy', d => yScale(d.CO2))
 }
 
 /**
@@ -54,4 +83,6 @@ export function moveCircles (xScale, yScale, transitionDuration) {
  */
 export function setTitleText (year) {
   // TODO : Set the title
+  d3.select('.title')
+    .text(`Data for year: ${year}`)
 }
