@@ -49,15 +49,15 @@ export function setCircleHoverHandler (tip) {
   d3.select('#graph-g').call(tip)
 
   d3.selectAll('circle')
-    .on('mouseover', function(event, d) {
-      tip.show(d, this);
+    .on('mouseover', function (event, d) {
+      tip.show(d, this)
       d3.select('.d3-tip')
         .style('left', `${event.pageX + 10}px`)
         .style('top', `${event.pageY - 10}px`);
     })
-    .on('mouseout', function(event, d) {
-      tip.hide();
-    });
+    .on('mouseout', function (event, d) {
+      tip.hide()
+    })
 }
 
 /**
