@@ -20,8 +20,10 @@ export function drawLegend (colorScale, g, width) {
 
   const symbol = d3.symbol().type(d3.symbolCircle).size(400)
 
+  const alphabetizedDomain = colorScale.domain().sort((a, b) => a.localeCompare(b))
+
   legendGroup.selectAll('.legendSymbols')
-    .data(colorScale.domain())
+    .data(alphabetizedDomain)
     .enter()
     .append('path')
     .attr('d', symbol)
@@ -30,7 +32,7 @@ export function drawLegend (colorScale, g, width) {
 
   // Add labels next to each symbol
   legendGroup.selectAll('.legendLabels')
-    .data(colorScale.domain())
+    .data(alphabetizedDomain)
     .enter()
     .append('text')
     .attr('x', 40)
