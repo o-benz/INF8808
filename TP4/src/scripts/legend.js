@@ -1,3 +1,4 @@
+import d3Legend from 'd3-svg-legend'
 
 /**
  * Draws the legend.
@@ -9,35 +10,12 @@
 export function drawLegend (colorScale, g, width) {
   const legendGroup = g.append('g')
     .attr('class', 'legend')
-    .attr('transform', `translate(${width + 20}, -40)`)
+    .attr('transform', `translate(${width + 5}, -30)`)
 
-  legendGroup.append('text')
-    .attr('class', 'legendTitle')
-    .attr('x', 10) // Position the title to the left
-    .attr('y', -20) // Position above the symbols
-    .text('Legend') // Replace with your desired title text
-    .style('font-size', '18px')
+  const legend = d3Legend.legendColor()
+    .title('Legend')
+    .shape('path', d3.symbol().type(d3.symbolCircle).size(400)())
+    .scale(colorScale)
 
-  const symbol = d3.symbol().type(d3.symbolCircle).size(400)
-
-  const alphabetizedDomain = colorScale.domain().sort((a, b) => a.localeCompare(b))
-
-  legendGroup.selectAll('.legendSymbols')
-    .data(alphabetizedDomain)
-    .enter()
-    .append('path')
-    .attr('d', symbol)
-    .attr('transform', (d, i) => `translate(20, ${i * 25})`)
-    .style('fill', d => colorScale(d))
-
-  // Add labels next to each symbol
-  legendGroup.selectAll('.legendLabels')
-    .data(alphabetizedDomain)
-    .enter()
-    .append('text')
-    .attr('x', 40)
-    .attr('y', (d, i) => i * 25)
-    .text(d => d)
-    .style('font-size', '12px')
-    .style('fill', '#000')
+  legendGroup.call(legend)
 }
